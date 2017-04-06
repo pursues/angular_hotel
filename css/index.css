@@ -1,0 +1,241 @@
+body, html {
+	background: #efefef;
+}
+.header {
+	height: 60px;
+	line-height: 60px;
+	background: #f5f5f5;
+	box-shadow: 0 2px 2px #ccc;
+	margin-bottom: 10px;
+}
+.header-left{
+	text-align: center;
+	height:60px;
+	line-height: 60px;
+	width:260px;
+	float: left;
+	background-color: #000;
+	color:#fff;
+	text-transform: transparent;
+	font-size: 20px;
+}
+.header-left a{
+	 text-decoration:none;
+}
+.header-center{
+	float: right;
+	margin-right: 50px;
+}
+.header-right{
+	line-height: 60px;
+	width:400px;
+	padding-right: 10px;
+	margin-right: 50px;
+	float: right;
+	font-size: 18px;
+}
+.header-right p a{
+	 text-decoration:none;
+}
+
+.slider {
+	float: left;
+	background: #000;
+	color:#fff;
+	width: 260px;
+	min-height: 680px;
+}
+.slider h3{
+	text-indent:1em;
+	line-height: 50px;
+	border-bottom: 1px solid #2F2E31;
+}
+.slider>ul li{
+	text-indent:2em;
+	width:260px;
+	min-height:50px;
+	text-decoration: none;
+	list-style: none;
+	line-height: 50px;
+	cursor: pointer;
+	border-bottom: 1px solid #2F2E31;
+}
+.slider ul>li>h3{
+	font-size: 20px;
+}
+.slider ul li>ul>li>a{
+	margin-left: 10px;
+	color:#fff;
+}
+.main {
+	float: left;
+	margin-left: 10px;
+	background: #fff;
+	max-width:1050px;
+	min-height: 680px;
+}
+/*登录页面*/
+.app-login {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: #efefef;
+} 
+
+/*主页home*/
+.app-home{
+	width:100%;
+	height:100%;
+}
+/*主界面的height*/
+.scollrs{
+	height:680px;
+	min-width: 1050px;
+	overflow:auto;
+	 position: relative;
+}
+/*对话区*/
+.app-home .dialogue{
+	width:300px;
+	height:600px;
+	float: right;
+	margin-right:10px; 
+}
+.chat-widget-left,
+.chat-widget-right{
+	border:1px solid #6792D5;
+	height:90px;
+	text-align:center;
+	width:80%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	line-height: 30px;
+	font-size: 18px;
+	border-radius: 10px;
+}
+.chat-widget-name-left,
+.chat-widget-name-right{
+	border:1px solid red;
+	height:30px;
+	text-align:center;
+	width:80%;
+	margin-left: 20%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	line-height: 30px;
+	font-size: 18px;
+	border-radius: 10px;
+}
+.app-home .highchart{
+	max-width:700px;
+	height:350px;
+}
+/*轮播区*/  
+.app-home .carousel{
+	width:700px;
+	height:300px;
+}
+.app-home .carousel img{
+	width:100%;
+}
+
+
+/*create页面*/
+.app-create{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+
+.app-create .carousel-inner{
+	width:650px;
+	height:350px;
+}
+#carousel-example-generic{
+	float: left;
+}
+.app-create .carousel-inner>.item>img{
+	width:100%;
+	height:100%;
+}
+
+.app-create .table-responsive{
+	float: left;
+}
+
+.app-create .informations{
+	position: absolute;
+	top:50px;
+	right:0;
+	float: right;
+	height:550px;
+}
+
+
+/*proposal页面*/
+.app-proposal{
+	width:100%;
+	height:100%;
+}
+.app-proposal .proposal-nav{
+	min-width:1000px;
+}
+.app-proposal .row{
+	min-width:500px;
+}
+
+
+
+/*hotelnew页面*/
+.app-hotelnews .row .panel-body p>img{
+	width:290px;
+	height:180px;
+}
+
+.app-hotelnews .tab-content .fade p>img{
+	width:470px;
+	height:200px;
+}
+
+
+/*imglook页面*/
+.app-imglook .scollrs>.col-md-4{
+	padding-top: 30px;
+	padding:auto 30px; 
+}
+.app-imglook .scollrs>.col-md-4 .portfolio-item .overlay{
+	width:313px;
+	height:85px;
+	background: #000;
+	color:#fff;
+	text-align: center;
+}
+.app-imglook .Paging{
+	margin-top: 50px;
+	float: right;
+}
+
+
+
+/*enterainment页面*/
+.app-entertainment .tab-content div{
+	line-height: 30px;
+	font-size: 16px;
+}
+.app-entertainment .tab-content .fade>h4{
+	height:40px;
+	width:100%;
+	line-height: 40px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+.app-entertainment .scollrs .panel .Paging{
+	float: right;
+	margin-top: 50px;
+
+}
+
